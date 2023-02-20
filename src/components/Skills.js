@@ -35,25 +35,34 @@ const Skills = () => {
                 <Col>
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p> I've been experimenting with some of the powerful frameworks
-                            <br></br> and libraries that can be used to build a user-focused website.
+                        <p> 
+                          As a versatile professional with cross-discipline best practices, 
+                          <br></br>I am able to provide a holistic perspective on software development projects
                         </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="react" />
-                                <h5>React</h5>
+                                <h5>SEO</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="css" />
-                                <h5>CSS</h5>
+                                <h5>Agile Methodology</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="bootstrap" />
-                                <h5>Boostrap</h5>
+                                <h5>CI/CD</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="dev" />
-                                <h5>Web Development</h5>
+                                <h5>OOP</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="dev" />
+                                <h5>Scrum Methodology</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="dev" />
+                                <h5>Content Management Systems</h5>
                             </div>
                         </Carousel>
                     </div>

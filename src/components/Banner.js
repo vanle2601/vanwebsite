@@ -12,17 +12,13 @@ const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>Hi, my name is Van.</h1>
                   <p>
-                    You've just entered my little world 
-                    where I share with you all of my exciting projects!
+                    A front end developer with an addiction to discovering new coding perspectives. I really mean it!
                   </p>
                   <button href="#skills">Let's Dive In <ArrowRightCircle size={25} /></button>
               
           </Col>
           <Col xs={12} md={6} xl={5}>
-            
-                  <img src={headerImg} alt="Header Img"/>
-               
-            
+            <img src={headerImg} alt="Header Img"/>
           </Col>
         </Row>
       </Container>
