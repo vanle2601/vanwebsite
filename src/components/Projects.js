@@ -5,7 +5,7 @@ import projImg1 from "../assets/img/gymbunno.png";
 import projImg2 from "../assets/img/fonseka.png";
 import projImg3 from "../assets/img/vanportfolio.png";
 import projImg4 from "../assets/img/fakeflix.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import colorSharp from "../assets/img/color-sharp.png"
 
 const Projects = () => {
 
@@ -46,9 +46,8 @@ const Projects = () => {
             <Col size={12}>
                 <h2>Projects</h2>
                 <p>
-                    Over the past three months, I worked on both self-initiated 
-                    and client-based projects using React. 
-                    <br></br>It is my passion to create performant and user-friendly products.
+                  As a passionate and insatiably curious learner, 
+                  I thrive on the rush of excitement and challenge that comes with tackling new projects.
                 </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -97,7 +96,7 @@ const Projects = () => {
             </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt="bg-img"></img>
+      <img className="background-image-left" src={colorSharp} alt="bg-img" />
     </section>
   )
 }

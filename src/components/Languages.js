@@ -11,6 +11,7 @@ import icon6 from '../assets/img/materialui_logo.svg';
 import icon7 from '../assets/img/Node_logo.svg';
 import icon8 from '../assets/img/npm_logo.svg';
 import icon9 from '../assets/img/rapidapi-logo.svg';
+import icon10 from '../assets/img/github.svg';
 
 import colorSharp from "../assets/img/color-sharp.png"
 
@@ -58,6 +59,10 @@ const Languages = () => {
             title: 'Rapid API',
             imgUrl: icon9
         },
+        {
+            title: 'Git',
+            imgUrl: icon10
+        },
     ]
     
       return (
@@ -77,14 +82,14 @@ const Languages = () => {
                                     )
                                 })
                                 }
-                        </Row>
+                    </Row>
                     </Col>
                 </Row>
             </Container>
             <Container className="languages-bx">
                 <Row className="languages-row">
                     <Col size={12}>
-                    <h2>Libraries</h2>
+                    <h2>Libraries/ Tools</h2>
                     <Row>
                                 {
                                 libraries.map((language, index) => {
