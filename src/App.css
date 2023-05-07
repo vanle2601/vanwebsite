@@ -621,4 +621,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       margin-top: 50px;
       padding: 0 20px;
     }
+	
+    .blog-goBack {
+      padding-top: 50px;
+    }
+	
+	
   }  
