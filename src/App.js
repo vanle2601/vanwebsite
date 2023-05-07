@@ -1,21 +1,20 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
 
-import NavBar from './components/NavBar';
-import Banner from './components/Banner';
-import Skills  from './components/Skills';
-import Projects from './components/Projects';
-import Languages from './components/Languages';
-import Footer from './components/Footer';
+import NavBar from "./components/NavBar";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Languages />
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/blog/:id" element={<Blog />} />
+      </Routes>
       <Footer />
     </div>
   );

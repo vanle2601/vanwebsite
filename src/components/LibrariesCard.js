@@ -1,6 +1,7 @@
+import React from "react";
 import { Col } from "react-bootstrap";
 
-const LanguagesCard = ({ language: { title, imgUrl } }) => {
+const LibrariesCard = ({ library: { title, imgUrl } }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="languages-imgbx">
@@ -11,4 +12,4 @@ const LanguagesCard = ({ language: { title, imgUrl } }) => {
   );
 };
 
-export default LanguagesCard;
+export default LibrariesCard;

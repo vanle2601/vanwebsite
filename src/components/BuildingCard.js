@@ -1,7 +1,9 @@
 import { Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const ProjectCard = ({ project: { id, title, description, imgUrl } }) => {
+const BuildingCard = ({
+  buildingProject: { id, title, description, imgUrl },
+}) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
@@ -17,4 +19,4 @@ const ProjectCard = ({ project: { id, title, description, imgUrl } }) => {
   );
 };
 
-export default ProjectCard;
+export default BuildingCard;
