@@ -3,6 +3,7 @@ import projImg2 from "../assets/img/fonseka.png";
 import projImg3 from "../assets/img/vanportfolio.png";
 import projImg4 from "../assets/img/fakeflix.png";
 import projImg5 from "../assets/img/linetech.png";
+import projImg6 from "../assets/img/sixteennailbar.png";
 
 import icon1 from "../assets/img/HTML5_Logo.svg";
 import icon2 from "../assets/img/CSS3_logo.svg";
@@ -16,6 +17,7 @@ import icon9 from "../assets/img/rapidapi-logo.svg";
 import icon10 from "../assets/img/github.svg";
 import icon11 from "../assets/img/axios-icon.svg";
 import icon12 from "../assets/img/redux.svg";
+import icon13 from "../assets/img/tailwind-logo.svg";
 
 export const buildingProjects = [
   {
@@ -82,6 +84,17 @@ export const projects = [
       "My desire to constantly improve it will undoubtedly lead to even greater success in the future. Keep coming back for more!",
     ],
   },
+  {
+    id: 6,
+    title: "Booking System",
+    description: "Design & Development",
+    imgUrl: projImg6,
+    link: "https://sixteennailbar.com",
+    subCategory: [icon3, icon5, icon13],
+    feature: [
+      "An almost completing first functional project I've made. I have learned a lot from this experience, despite the challenges and bugs that I encountered along the way. Working with web services can be complex, but by learning how to pull data from a web service, I've gained a valuable skill that will be useful in many future projects.",
+    ],
+  },
 ];
 
 export const languages = [
@@ -117,6 +130,10 @@ export const libraries = [
   {
     title: "Material UI",
     imgUrl: icon6,
+  },
+  {
+    title: "Tailwind",
+    imgUrl: icon13,
   },
   {
     title: "npm",
