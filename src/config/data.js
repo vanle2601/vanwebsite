@@ -89,7 +89,7 @@ export const projects = [
     title: "Booking System",
     description: "Design & Development",
     imgUrl: projImg6,
-    link: "https://sixteennailbar.com",
+    link: "https://sixteennailbar.onrender.com/",
     subCategory: [icon3, icon5, icon13],
     feature: [
       "An almost completing first functional project I've made. I have learned a lot from this experience, despite the challenges and bugs that I encountered along the way. Working with web services can be complex, but by learning how to pull data from a web service, I've gained a valuable skill that will be useful in many future projects.",
